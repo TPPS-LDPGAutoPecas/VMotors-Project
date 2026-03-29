@@ -1,0 +1,12 @@
+.md-header {
+  background-color: #1C1C1C;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: #1C1C1C;
+  color: #ECECEC;
+}
+
+.md-footer-meta__inner {
+  display: none;
+}

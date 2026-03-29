@@ -1,1 +1,25 @@
-site_name: My Docs
+site_name: Vellux Motors - Documentação de Software
+
+nav:
+  - Início: index.md
+  - Requisitos: pages/requisitos.md
+  - Backlog: pages/backlog.md
+
+theme:
+  name: material
+  language: pt-BR
+
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    - header.autohide
+    - navigation.instant
+    - navigation.top
+    - navigation.tracking
+
+  logo: assets/VelluxMotorsLogo.png
+  favicon: assets/VelluxMotorsFavicon.png
+  highlightjs: true
+
+extra_css:
+  - stylesheets/styles.css
