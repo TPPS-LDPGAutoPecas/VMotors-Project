@@ -42,7 +42,7 @@ Os requisitos não funcionais foram organizados com base no modelo URPS+, que cl
 
 ### Suportabilidade
 
-**RNF05 -** RNF16 - O sistema deve ser compatível com as últimas duas versões instáveis e atualizadas dos navegadores Chrome, Firefox, Edge e Safari de Março de 2026. <br />
+**RNF05 -** O sistema deve ser compatível com as últimas duas versões instáveis e atualizadas dos navegadores Chrome, Firefox, Edge e Safari de Março de 2026. <br />
 
 ### Seguraça (+)
 

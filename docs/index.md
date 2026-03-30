@@ -10,7 +10,7 @@
 
 ## 3. Os contribuidores
 
-A equipe de desenvolvedores do Projeto Vallux Motors é composta por 6 membros do curso de Engenharia de Software da Universidade de Brasília.
+A equipe de desenvolvedores do Projeto Vellux Motors é composta por 7 membros do curso de Engenharia de Software da Universidade de Brasília.
 
 <div style="
   display: grid;
