@@ -10,7 +10,7 @@
 
 ## 3. Os contribuidores
 
-A equipe de desenvolvedores do Projeto Vellux Motors é composta por 7 membros do curso de Engenharia de Software da Universidade de Brasília.
+A equipe de desenvolvedores do Projeto Vellux Motors é composta por 5 membros do curso de Engenharia de Software da Universidade de Brasília.
 
 <div style="
   display: grid;
@@ -24,22 +24,6 @@ A equipe de desenvolvedores do Projeto Vellux Motors é composta por 7 membros d
     <img src="https://github.com/arthurfonsecaa.png" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #96191d;">
     <h5 style="margin: 20px 0px 0px 0px; padding: 0px; color: #96191d">222037595</h5>
     <p style="color: black; margin: 0px 0px 20px 0px; padding: 0px">Arthur Fonseca</p>
-  </div>
-</a>
-
-<a href="https://github.com/DanielRogs" style="text-decoration: none; color: inherit; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2)">
-  <div style="text-align: center; background: #f5f5f5; padding: 20px;">
-    <img src="https://github.com/DanielRogs.png" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #96191d;">
-    <h5 style="margin: 20px 0px 0px 0px; padding: 0px; color: #96191d">211061583</h5>
-    <p style="color: black; margin: 0px 0px 20px 0px; padding: 0px">Daniel Rodrigues</p>
-  </div>
-</a>
-
-<a href="https://github.com/DaviRogs" style="text-decoration: none; color: inherit; box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2)">
-  <div style="text-align: center; background: #f5f5f5; padding: 20px;">
-    <img src="https://github.com/DaviRogs.png" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #96191d;">
-    <h5 style="margin: 20px 0px 0px 0px; padding: 0px; color: #96191d">211061618</h5>
-    <p style="color: black; margin: 0px 0px 20px 0px; padding: 0px">Davi Rodrigues</p>
   </div>
 </a>
 

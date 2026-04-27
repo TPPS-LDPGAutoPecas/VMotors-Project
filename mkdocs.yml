@@ -4,6 +4,7 @@ nav:
   - Início: index.md
   - Requisitos: pages/requisitos.md
   - Backlog: pages/backlog.md
+  - Protótipos de Alta Fidelidade: pages/prototipos.md
 
 theme:
   name: material
