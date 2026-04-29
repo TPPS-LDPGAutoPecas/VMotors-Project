@@ -1,0 +1,777 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../requisitos/">
+      
+      
+        <link rel="next" href="../prototipos/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/VelluxMotorsFavicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Backlog - Vellux Motors - Documentação de Software</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/styles.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#backlog-do-produto" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Vellux Motors - Documentação de Software" class="md-header__button md-logo" aria-label="Vellux Motors - Documentação de Software" data-md-component="logo">
+      
+  <img src="../../assets/VelluxMotorsLogo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Vellux Motors - Documentação de Software
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Backlog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Vellux Motors - Documentação de Software" class="md-nav__button md-logo" aria-label="Vellux Motors - Documentação de Software" data-md-component="logo">
+      
+  <img src="../../assets/VelluxMotorsLogo.png" alt="logo">
+
+    </a>
+    Vellux Motors - Documentação de Software
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requisitos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requisitos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backlog
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backlog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#11-backlog-geral" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 - Backlog Geral
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.1 - Backlog Geral">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111-temas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1.1 - Temas:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#112-epicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1.2 - Épicos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#113-user-story-dos-requisitos-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1.3 - User Story dos Requisitos Funcionais
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versão
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prototipos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Protótipos de Alta Fidelidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#11-backlog-geral" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 - Backlog Geral
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.1 - Backlog Geral">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111-temas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1.1 - Temas:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#112-epicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1.2 - Épicos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#113-user-story-dos-requisitos-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1.3 - User Story dos Requisitos Funcionais
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versão
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><span style="background-color:#96191d; color:white; font-size:0.8em; font-weight: bold; padding:2px 6px; border-radius:4px;">Versão 1.0</span></p>
+<h1 id="backlog-do-produto">Backlog do Produto</h1>
+<h2 id="11-backlog-geral">1.1 - Backlog Geral</h2>
+<p>O backlog de produto é uma lista dinâmica e priorizada que contém todos os requisitos, funcionalidades, melhorias e correções que serão necessárias para o desenvolvimento de um produto. Ele funciona como um guia para a equipe de desenvolvimento, servindo de referência para todas as tarefas que precisam ser realizadas ao longo do ciclo de vida do projeto. Essa lista não é fixa, mas sim atualizável conforme o produto evolui e novas necessidades surgem, garantindo que o time esteja sempre alinhado às prioridades e expectativas do projeto.</p>
+<p>Dentro do backlog, um dos principais elementos são as User Stories (US), ou histórias de usuário. As histórias de usuário descrevem, em uma linguagem simples e direta, as necessidades do usuário final de forma que todos da equipe possam compreender o valor de cada funcionalidade. Elas são compostas por três elementos principais: quem é o usuário, o que ele deseja fazer e qual o benefício dessa ação. Esse formato ajuda a manter o foco nas necessidades dos usuários, incentivando a equipe a desenvolver soluções que realmente agreguem valor ao produto.</p>
+<p>As User Stories mais complexas ou que englobam várias funcionalidades estão agrupadas em Épicos. Um épico é uma descrição ampla de uma necessidade maior, que será posteriormente dividida em histórias menores e mais detalhadas. Esse processo de desmembramento ajuda a equipe a compreender o escopo do projeto e a definir prioridades para desenvolver partes do produto em blocos mais manejáveis. Épicos podem ser definidos com base nas principais funcionalidades ou objetivos do produto, e cada um pode se desdobrar em várias histórias de usuário que detalham as tarefas específicas.</p>
+<p>Por sua vez, os Temas funcionam como agrupamentos de histórias e épicos que compartilham um propósito ou um objetivo comum dentro do produto. Eles são úteis para organizar o backlog em seções que representem áreas ou funcionalidades do sistema, facilitando a priorização de desenvolvimento de acordo com as metas do projeto. Diferente dos épicos, que normalmente possuem um escopo mais restrito, os temas são mais amplos e podem abranger múltiplos épicos e histórias de usuário, fornecendo uma visão geral das grandes áreas do produto.</p>
+<h3 id="111-temas">1.1.1 - Temas:</h3>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Título</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TM01</td>
+<td>Experiência do Usuário com a Empresa</td>
+<td>Funcionalidades que permitem ao usuário interagir com a empresa.</td>
+</tr>
+<tr>
+<td>TM02</td>
+<td>Gestão do Software</td>
+<td>Funcionalidades voltadas para a administração do site institucional.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="112-epicos">1.1.2 - Épicos:</h3>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Tema Associado</th>
+<th>Título</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EP01</td>
+<td>TM02</td>
+<td>Configurações de Negócio e BI</td>
+<td>Engloba o desenvolvimento do dashboard administrativo e das ferramentas de Inteligência de Negócio (BI) que darão autonomia à equipe da Vellux Motors. O objetivo principal é permitir que a administração do sistema possa parametrizar as regras de negócio de forma dinâmica. Além disso, provê as ferramentas de análise de dados necessárias para monitorar a saúde financeira e operacional da oficina.</td>
+</tr>
+<tr>
+<td>EP02</td>
+<td>TM02</td>
+<td>Gestão de Atendimento</td>
+<td>Contempla a gestão operacional do atendimento da oficina, permitindo atualizar o status de agendamentos em calendário, gerar orçamentos detalhados dos serviços e designar mecânicos responsáveis por cada ordem de serviço para garantir organização, comunicação com o cliente e acompanhamento eficiente da equipe.</td>
+</tr>
+<tr>
+<td>EP03</td>
+<td>TM01</td>
+<td>Monitoramento do Veículo</td>
+<td>Concentra-se no fornecimento das informações de forma transparente do veículo para o cliente. A ideia deste épico é criar um ambiente no sistema onde o usuário possa gerenciar as informações dos seus veículos pessoais.</td>
+</tr>
+<tr>
+<td>EP04</td>
+<td>TM01</td>
+<td>Engajamento e Relacionamento</td>
+<td>Disponibilidade de mecanismos de interação entre cliente e oficina, como notificações, acompanhamento de serviços, avaliações e vinculação com canais de comunicação para promover engajamento contínuo e fortalecer o relacionamento com o cliente.</td>
+</tr>
+<tr>
+<td>EP05</td>
+<td>TM02</td>
+<td>Interface do Mecânico</td>
+<td>Disponibilidade de uma visão organizada do fluxo de trabalho, permitindo consulta da lista de serviços prestados.</td>
+</tr>
+<tr>
+<td>EP06</td>
+<td>TM02</td>
+<td>Segurança e Controle de Acesso</td>
+<td>Engloba mecanismos de autenticação de usuários e controle de permissões, com o objetivo de permitir acesso seguro ao sistema, conforme os perfis estabelecidos.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="113-user-story-dos-requisitos-funcionais">1.1.3 - User Story dos Requisitos Funcionais</h3>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Requisito Funcional Associado</th>
+<th>Épico Associado</th>
+<th>User Story</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US01</td>
+<td>RF01</td>
+<td>EP01</td>
+<td>Eu, como administrador do sistema, quero manipular as informações do catálogo de serviços disponíveis no site para que eu mantenha os serviços sempre atualizados.</td>
+</tr>
+<tr>
+<td>US02</td>
+<td>RF08</td>
+<td>EP01</td>
+<td>Eu, como administrador do sistema, quero consultar, por meio de gráficos, o faturamento bruto e o volume de serviços com filtros por período mensal e anual, para que eu possa planejar decisões futuras do meu negócio.</td>
+</tr>
+<tr>
+<td>US03</td>
+<td>RF11</td>
+<td>EP01</td>
+<td>Eu, como administrador do sistema, quero ativar ou desativar funções do meu sistema para que o site se adapte com a demanda da oficina e regras de negócio do momento.</td>
+</tr>
+<tr>
+<td>US04</td>
+<td>RF03</td>
+<td>EP02</td>
+<td>Eu, como administrador do sistema, quero atualizar a situação de agendamentos dispostos em um calendário no site para que eu possa planejar as revisões da semana.</td>
+</tr>
+<tr>
+<td>US05</td>
+<td>RF05</td>
+<td>EP02</td>
+<td>Eu, como administrador do sistema, quero gerar um documento de orçamento detalhado do serviço a ser cobrado para que eu possa enviar para o cliente do serviço a ser realizado.</td>
+</tr>
+<tr>
+<td>US06</td>
+<td>RF12</td>
+<td>EP02</td>
+<td>Eu, como administrador do sistema, quero designar qual mecânico será responsável por cada ordem de serviço para que eu possa monitorar a equipe.</td>
+</tr>
+<tr>
+<td>US07</td>
+<td>RF06</td>
+<td>EP03</td>
+<td>Eu, como cliente, quero consultar o histórico de manutenções que já realizei no meu veículo para que eu possa olhar os serviços que já solicitei.</td>
+</tr>
+<tr>
+<td>US08</td>
+<td>RF07</td>
+<td>EP03</td>
+<td>Eu, como cliente, gostaria de visualizar o status das manutenções, para que eu possa acompanhar o progresso do serviço.</td>
+</tr>
+<tr>
+<td>US09</td>
+<td>RF09</td>
+<td>EP03</td>
+<td>Eu, como cliente, quero registrar os dados dos meus veículos para que eu possa consultar as interações que a oficina teve com o veículo.</td>
+</tr>
+<tr>
+<td>US10</td>
+<td>RF10</td>
+<td>EP04</td>
+<td>Eu, como administrador do sistema, quero atualizar os meios de contato para a oficina para que o site sempre mantenha o direcionamento ao atendimento atualizado.</td>
+</tr>
+<tr>
+<td>US11</td>
+<td>RF13</td>
+<td>EP04</td>
+<td>Eu, como cliente, quero receber notificações automáticas sobre prazos de manutenções futuras para que eu possa manter a saúde do meu veículo em dia.</td>
+</tr>
+<tr>
+<td>US12</td>
+<td>RF14</td>
+<td>EP04</td>
+<td>Eu, como cliente, quero avaliar a prestação de serviço e dos mecânicos responsáveis para que a oficina possa utilizar os dados para melhoria.</td>
+</tr>
+<tr>
+<td>US13</td>
+<td>RF15</td>
+<td>EP05</td>
+<td>Eu, como mecânico, quero visualizar minha lista de serviços para que eu possa organizar o meu fluxo de trabalho e acompanhar minhas comissões.</td>
+</tr>
+<tr>
+<td>US14</td>
+<td>RF02</td>
+<td>EP06</td>
+<td>Eu, como administrador do sistema, quero me autenticar na plataforma para ter acesso aos controles administrativos do site.</td>
+</tr>
+<tr>
+<td>US15</td>
+<td>RF04</td>
+<td>EP06</td>
+<td>Eu, como administrador do sistema, quero restringir as funcionalidades do site para diferentes perfis para que eu mantenha o acesso administrativo seguro de usuários não autorizados.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="historico-de-versao">Histórico de Versão</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Autor(es)</th>
+<th>Mudanças</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>28/03/2026</td>
+<td><code>1.0</code></td>
+<td>Arthur, Daniel, Davi, Marcella, Vinicius, Yves</td>
+<td>Criação do documento e adição dos tópicos básicos</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.annotate", "content.tabs.link", "header.autohide", "navigation.instant", "navigation.top", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

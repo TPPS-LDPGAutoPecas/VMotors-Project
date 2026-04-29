@@ -54,4 +54,4 @@ Os requisitos não funcionais foram organizados com base no modelo URPS+, que cl
 ## Histórico de Versão
 Data       | Versão | Autor(es) | Mudanças
 ---------- | ------ | --------- | ------------
-28/03/2026 | `1.0`  | Arthur, Daniel, Davi, Marcella, Vinicius, Yves | Criação do documento e adição dos tópicos básicos       |
+28/03/2026 | `1.0`  | Arthur, Marcella, Vinicius, Yves | Criação do documento e adição dos tópicos básicos |

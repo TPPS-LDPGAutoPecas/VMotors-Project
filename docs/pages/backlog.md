@@ -56,4 +56,4 @@ Por sua vez, os Temas funcionam como agrupamentos de histórias e épicos que co
 
 Data       | Versão | Autor(es) | Mudanças
 ---------- | ------ | --------- | --------
-28/03/2026 | `1.0`  | Arthur, Daniel, Davi, Marcella, Vinicius, Yves | Criação do documento e adição dos tópicos básicos       |
+28/03/2026 | `1.0`  | Arthur, Marcella, Vinicius, Yves | Criação do documento e adição dos tópicos básicos |
